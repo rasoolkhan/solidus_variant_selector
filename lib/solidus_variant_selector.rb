@@ -1,5 +1,6 @@
 require "solidus_variant_selector/version"
 
 module SolidusVariantSelector
-  # Your code goes here...
+  class Engine < Rails::Engine
+  end
 end
